@@ -263,13 +263,13 @@ body {
 }
 
 .advantages {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages__list {
   display: flex;
   margin-top: -30px;
-  margin-left: -30px;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -277,7 +277,6 @@ body {
 
 .advantages__details {
   margin-top: 30px;
-  margin-left: 30px;
   width: 270px;
 }
 
@@ -358,7 +357,6 @@ body {
 .about-us__img-item {
   position: relative;
   flex-basis: calc((100% - 120px) / 4);
-  margin-left: 30px;
 }
 
 .about-us__text {
